@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>taihu-web</artifactId>
     <packaging>war</packaging>
-    <name>taihu-web Maven Webapp</name>
+    <name>taihu-web</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>

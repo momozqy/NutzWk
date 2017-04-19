@@ -21,7 +21,6 @@ import org.nutz.lang.Strings;
 import org.nutz.log.Log;
 import org.nutz.log.Logs;
 import org.nutz.mvc.NutConfig;
-import org.quartz.Scheduler;
 
 import java.io.File;
 import java.nio.charset.Charset;
@@ -771,7 +770,7 @@ public class Setup implements org.nutz.mvc.Setup{
     public void destroy(NutConfig config) {
         // 解决quartz有时候无法停止的问题
         try {
-            config.getIoc().get(Scheduler.class).shutdown(true);
+//            config.getIoc().get(Scheduler.class).shutdown(true);
         } catch (Exception e) {
         }
     }
