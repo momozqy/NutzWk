@@ -11,9 +11,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>wk-web</module>
+        <module>taihu-web</module>
     </modules>
     <groupId>cn.wizzer.app</groupId>
     <artifactId>wk-app</artifactId>
-
 
 </project>
